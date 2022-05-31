@@ -5302,7 +5302,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   data: function data() {},
   props: ['productId', 'userId'],
   methods: {
-    // Checking if user is logged in.
     addProductToCart: function addProductToCart() {
       var _this = this;
 
@@ -5401,6 +5400,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
 window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 
 try {
+  // window.Popper = require('popper.js').default;
+  // window.$ = window.jQuery = require('jquery');
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 } catch (e) {}
 /**

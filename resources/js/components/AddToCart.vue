@@ -17,10 +17,10 @@ import axios from 'axios';
         },
         props:['productId', 'userId'],
         methods:{
-
-            // Checking if user is logged in.
-
             async addProductToCart(){
+
+                // Checking if user is logged in.
+                
                 if(this.userId == 0){
                     this.$toastr.e('You Need to login, To add this product in the Cart');
                     return;

@@ -19,4 +19,4 @@ Route::get('/', [ProductsController::class, 'index']);
 
 Auth::routes();
 
-Route::get('/cart', [CartsController::class, 'index'])->name('cart');
+Route::post('/cart', [CartsController::class, 'store'])->name('cart');
